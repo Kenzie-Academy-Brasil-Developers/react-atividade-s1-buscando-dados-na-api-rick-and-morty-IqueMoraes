@@ -1,0 +1,41 @@
+.card {
+  box-sizing: content-box;
+  height: 300px;
+  max-width: 190px;
+  padding: 10px 10px 20px;
+  margin: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.alive {
+  background-color: aliceblue;
+  color: rgb(106, 160, 95);
+  border: 5px solid rgb(5, 146, 5);
+}
+.dead {
+  background-color: rgb(255, 240, 240);
+  color: rgb(158, 46, 46);
+  border: 5px solid rgb(119, 21, 21);
+}
+.unknown {
+  background-color: rgb(206, 206, 206);
+  color: rgb(34, 34, 34);
+  border: 5px solid rgb(0, 0, 0);
+}
+
+p,
+h4 {
+  margin: 5px;
+}
+
+.picture {
+  height: 130px;
+  width: 130px;
+  object-fit: cover;
+}

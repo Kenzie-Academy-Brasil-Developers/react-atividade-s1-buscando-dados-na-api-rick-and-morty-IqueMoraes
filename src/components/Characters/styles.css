@@ -1,0 +1,12 @@
+/* .container {
+} */
+ul {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+}
+ul li {
+  list-style: none;
+}
